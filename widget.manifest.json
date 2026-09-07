@@ -128,5 +128,50 @@
       "connect_src": []
     }
   },
-  "integrity": "sha256-2x3rUb1TyG/xAVhVgWOxbukiPjdUVP6Mqmr+JuOUyA8="
+  "integrity": "sha256-2x3rUb1TyG/xAVhVgWOxbukiPjdUVP6Mqmr+JuOUyA8=",
+  "marketplace": {
+    "metadata_version": 2,
+    "display_name": "Calendar & agenda",
+    "summary": "See timezone-safe timed and all-day events across selected calendars.",
+    "category": "other",
+    "regions": [
+      "WW"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "ar"
+    ],
+    "publisher": {
+      "name": "PiPhi Network",
+      "website_url": "https://piphi.io",
+      "support_url": "https://github.com/PiPhi-io/piphi-widget-calendar-agenda/issues",
+      "security_contact": "support@piphi.io"
+    },
+    "access": [],
+    "compatibility": [
+      {
+        "capability": "calendar_events",
+        "host_protocol": "piphi.widget.host/1",
+        "widget_sdk": ">=0.4.0"
+      }
+    ],
+    "documentation_url": "https://github.com/PiPhi-io/piphi-widget-calendar-agenda",
+    "support_url": "https://github.com/PiPhi-io/piphi-widget-calendar-agenda/issues",
+    "changelog_url": "https://github.com/PiPhi-io/piphi-widget-calendar-agenda/releases",
+    "quality_tier": "unrated",
+    "governance": {
+      "schema_version": 1,
+      "publication_status": "draft",
+      "rollout_percent": 0,
+      "lifecycle_status": "active",
+      "qualification": {
+        "status": "unverified"
+      }
+    }
+  },
+  "artifact": {
+    "release_asset": "piphi-widget-calendar-agenda-0.1.0.tgz",
+    "integrity": null
+  }
 }
